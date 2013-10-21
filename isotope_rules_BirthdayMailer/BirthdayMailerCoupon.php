@@ -153,7 +153,7 @@ class BirthdayMailerCoupon extends Backend
 		$objConfig = BirthdayMailSender::getCurrentConfig();
 		$arrTagChunks = explode('::', $strTag);
 
-		if ($arrTagChunks[0] == 'brithdaymailer' && $objConfig)
+		if ($arrTagChunks[0] == 'brithdaychild' && $objConfig)
 		{
 			if (in_array($arrTagChunks[1], array('coupon', 'code', 'couponcode')))
 			{
